@@ -19,6 +19,7 @@ http {
     default_type  application/octet-stream;
 
     server_names_hash_bucket_size {{ nginx_server_names_hash_bucket_size }};
+    server_names_hash_max_size {{ nginx_server_names_hash_max_size }};
 
     client_max_body_size {{ nginx_client_max_body_size }};
 

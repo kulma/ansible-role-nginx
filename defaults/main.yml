@@ -21,7 +21,7 @@ nginx_keepalive_requests: "100"
 
 nginx_client_max_body_size: "64m"
 nginx_server_names_hash_bucket_size: "64"
-nginx_server_names_hash_max_size: "2048";
+nginx_server_names_hash_max_size: "2048"
 
 nginx_proxy_cache_path: ""
 
